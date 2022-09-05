@@ -7,26 +7,14 @@ function myFunction() {
     }
 }
 
-//NEW NAVBAR
+// const h1 = document.createElement("H1");
+// const textNode = document.createTextNode("Hello james World");
+// h1.appendChild(textNode);
+// document.body.appendChild(h1);
 
-// function reactiveTopNav() {
-//     const topNav = document.getElementById("myTopnav");
+// Create element:
+const para = document.createElement("p");
+para.innerHTML = "This is a paragraph james.";
 
-//     topNav.classList.contains("responsive") ?
-//         topNav.classList.remove("responsive") :
-//         topNav.classList.add("responsive");
-// }
-// window.onscroll = function() {
-//     stickyTopNav();
-// };
-
-// var navbar = document.getElementById("myTopnav");
-// var sticky = navbar.offsetTop;
-
-// function stickyTopNav() {
-//     if (window.pageYOffset >= sticky) {
-//         navbar.classList.add("sticky");
-//     } else {
-//         navbar.classList.remove("sticky");
-//     }
-//
+// Append to another element:
+document.getElementById("myDIV").appendChild(para);
